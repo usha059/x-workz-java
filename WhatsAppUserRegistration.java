@@ -1,20 +1,17 @@
-class WhatsAppUserRegistration {
-
-	static String mobile = "+91XXXXXXXXXX";
-	static int countryCode = 91;
-
+class WhatsApp {
 	public static void main(String[] args) {
-		String username = "whatsapp_user";
-		String otp = "456789";
-		String authMethod = "Mobile OTP";
-		String token = "waToken11";
-		String userId = "wa_101";
-
-		System.out.println("Country Code: " + countryCode);
-		System.out.println("Username: " + username);
-		System.out.println("OTP: " + otp);
-		System.out.println("Auth Method: " + authMethod);
-		System.out.println("Token: " + token);
-		System.out.println("User ID: " + userId);
+		createAcc("abc@whatsapp.com",103,"Neha","Singh","3-3-1998","neha_wa",23557,"wa987","wa987");
+	}
+	static void createAcc(String emailId,int id,String firstName,String lastName,
+	String dob,String userName,int zipCode,String password,String repeatPassword) {
+		System.out.println("The emailId is: "+emailId);
+		System.out.println("The id is: "+id);
+		System.out.println("The firstName is: "+firstName);
+		System.out.println("The lastName is: "+lastName);
+		System.out.println("The dob is: "+dob);
+		System.out.println("The userName is: "+userName);
+		System.out.println("The zipCode is: "+zipCode);
+		System.out.println("The password is: "+password);
+		System.out.println("The repeatPassword is: "+repeatPassword);
 	}
 }

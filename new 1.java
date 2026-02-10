@@ -1,6 +1,6 @@
-class LinkedIn {
+class TikTok {
 	public static void main(String[] args) {
-		createAcc("abc@linkedin.com",102,"Amit","Shah","2-2-1999","amit_ln",23556,"ln987","ln987");
+		createAcc("abc@tiktok.com",115,"Rina","Sen","15-3-1986","rina_tt",23569,"tt987","tt987");
 	}
 	static void createAcc(String emailId,int id,String firstName,String lastName,
 	String dob,String userName,int zipCode,String password,String repeatPassword) {

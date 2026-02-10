@@ -1,20 +1,17 @@
-class InstagramUserRegistration {
-
-	static String email = "user@instagram.com";
-	static int region = 4;
-
+class Instagram {
 	public static void main(String[] args) {
-		String username = "insta_user";
-		String password = "Insta@321";
-		String authMethod = "Mobile";
-		String token = "instaToken88";
-		String userId = "insta_123";
-
-		System.out.println("Region: " + region);
-		System.out.println("Username: " + username);
-		System.out.println("Password: " + password);
-		System.out.println("Auth Method: " + authMethod);
-		System.out.println("Token: " + token);
-		System.out.println("User ID: " + userId);
+		createAcc("abc@instagram.com",104,"Rohit","Kumar","4-4-1997","rohit_in",23558,"in987","in987");
+	}
+	static void createAcc(String emailId,int id,String firstName,String lastName,
+	String dob,String userName,int zipCode,String password,String repeatPassword) {
+		System.out.println("The emailId is: "+emailId);
+		System.out.println("The id is: "+id);
+		System.out.println("The firstName is: "+firstName);
+		System.out.println("The lastName is: "+lastName);
+		System.out.println("The dob is: "+dob);
+		System.out.println("The userName is: "+userName);
+		System.out.println("The zipCode is: "+zipCode);
+		System.out.println("The password is: "+password);
+		System.out.println("The repeatPassword is: "+repeatPassword);
 	}
 }

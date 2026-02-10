@@ -1,6 +1,6 @@
-class LinkedIn {
+class Reddit {
 	public static void main(String[] args) {
-		createAcc("abc@linkedin.com",102,"Amit","Shah","2-2-1999","amit_ln",23556,"ln987","ln987");
+		createAcc("abc@reddit.com",109,"Anita","Rao","9-9-1992","anita_rd",23563,"rd987","rd987");
 	}
 	static void createAcc(String emailId,int id,String firstName,String lastName,
 	String dob,String userName,int zipCode,String password,String repeatPassword) {

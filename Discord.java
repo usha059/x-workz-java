@@ -1,6 +1,6 @@
-class LinkedIn {
+class Discord {
 	public static void main(String[] args) {
-		createAcc("abc@linkedin.com",102,"Amit","Shah","2-2-1999","amit_ln",23556,"ln987","ln987");
+		createAcc("abc@discord.com",110,"Vikas","Jain","10-10-1991","vikas_dc",23564,"dc987","dc987");
 	}
 	static void createAcc(String emailId,int id,String firstName,String lastName,
 	String dob,String userName,int zipCode,String password,String repeatPassword) {

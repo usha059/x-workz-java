@@ -1,6 +1,6 @@
-class LinkedIn {
+class Snapchat {
 	public static void main(String[] args) {
-		createAcc("abc@linkedin.com",102,"Amit","Shah","2-2-1999","amit_ln",23556,"ln987","ln987");
+		createAcc("abc@snapchat.com",106,"Arjun","Mehta","6-6-1995","arjun_sc",23560,"sc987","sc987");
 	}
 	static void createAcc(String emailId,int id,String firstName,String lastName,
 	String dob,String userName,int zipCode,String password,String repeatPassword) {

@@ -1,19 +1,17 @@
-class FacebookUserRegistration {
-	static String email = "user@facebook.com";
-	static int dataCenter = 3;
-
+class Facebook {
 	public static void main(String[] args) {
-		String username = "fb_user";
-		String password = "Fb@12345";
-		String authMethod = "Email";
-		String token = "fb98765token";
-		String userId = "fb_user_001";
-
-		System.out.println("Data Center: " + dataCenter);
-		System.out.println("Username: " + username);
-		System.out.println("Password: " + password);
-		System.out.println("Auth Method: " + authMethod);
-		System.out.println("Token: " + token);
-		System.out.println("User ID: " + userId);
+		createAcc("abc@facebook.com",101,"Raj","Roy","1-1-2020","raj_fb",23555,"fb987","fb987");
+	}
+	static void createAcc(String emailId,int id,String firstName,String lastName,
+	String dob,String userName,int zipCode,String password,String repeatPassword) {
+		System.out.println("The emailId is: "+emailId);
+		System.out.println("The id is: "+id);
+		System.out.println("The firstName is: "+firstName);
+		System.out.println("The lastName is: "+lastName);
+		System.out.println("The dob is: "+dob);
+		System.out.println("The userName is: "+userName);
+		System.out.println("The zipCode is: "+zipCode);
+		System.out.println("The password is: "+password);
+		System.out.println("The repeatPassword is: "+repeatPassword);
 	}
 }

@@ -1,6 +1,6 @@
-class LinkedIn {
+class YouTube {
 	public static void main(String[] args) {
-		createAcc("abc@linkedin.com",102,"Amit","Shah","2-2-1999","amit_ln",23556,"ln987","ln987");
+		createAcc("abc@youtube.com",107,"Priya","Verma","7-7-1994","priya_yt",23561,"yt987","yt987");
 	}
 	static void createAcc(String emailId,int id,String firstName,String lastName,
 	String dob,String userName,int zipCode,String password,String repeatPassword) {

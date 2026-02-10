@@ -1,6 +1,6 @@
-class LinkedIn {
+class Pinterest {
 	public static void main(String[] args) {
-		createAcc("abc@linkedin.com",102,"Amit","Shah","2-2-1999","amit_ln",23556,"ln987","ln987");
+		createAcc("abc@pinterest.com",111,"Pooja","Nair","11-11-1990","pooja_pin",23565,"pin987","pin987");
 	}
 	static void createAcc(String emailId,int id,String firstName,String lastName,
 	String dob,String userName,int zipCode,String password,String repeatPassword) {

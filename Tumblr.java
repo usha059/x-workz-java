@@ -1,6 +1,6 @@
-class LinkedIn {
+class Tumblr {
 	public static void main(String[] args) {
-		createAcc("abc@linkedin.com",102,"Amit","Shah","2-2-1999","amit_ln",23556,"ln987","ln987");
+		createAcc("abc@tumblr.com",113,"Kavya","Das","13-1-1988","kavya_tb",23567,"tb987","tb987");
 	}
 	static void createAcc(String emailId,int id,String firstName,String lastName,
 	String dob,String userName,int zipCode,String password,String repeatPassword) {

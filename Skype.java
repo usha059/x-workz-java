@@ -1,6 +1,6 @@
-class LinkedIn {
+class Skype {
 	public static void main(String[] args) {
-		createAcc("abc@linkedin.com",102,"Amit","Shah","2-2-1999","amit_ln",23556,"ln987","ln987");
+		createAcc("abc@skype.com",112,"Suresh","Iyer","12-12-1989","suresh_sk",23566,"sk987","sk987");
 	}
 	static void createAcc(String emailId,int id,String firstName,String lastName,
 	String dob,String userName,int zipCode,String password,String repeatPassword) {

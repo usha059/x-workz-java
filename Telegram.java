@@ -1,6 +1,6 @@
-class LinkedIn {
+class Telegram {
 	public static void main(String[] args) {
-		createAcc("abc@linkedin.com",102,"Amit","Shah","2-2-1999","amit_ln",23556,"ln987","ln987");
+		createAcc("abc@telegram.com",108,"Karan","Malik","8-8-1993","karan_tg",23562,"tg987","tg987");
 	}
 	static void createAcc(String emailId,int id,String firstName,String lastName,
 	String dob,String userName,int zipCode,String password,String repeatPassword) {
